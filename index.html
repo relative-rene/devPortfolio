@@ -3,7 +3,8 @@
   <head>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
+    	<!-- devicon cdn -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -28,7 +29,16 @@
     <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
   </ul>
   <a href="#" data-activates="slide-out" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
-
+  <div class="jumbotron center-align">
+    <div class="container">
+      <span class="center-align"><h3 id="name-header">Rene Arellano</h3>
+        <a href="#about" class="waves-effect waves-light btn  red lighten-1 hide-on-small-only">About</a>
+        <a href="#portfolio" class="waves-effect waves-light btn red lighten-1 hide-on-small-only">Portfolio</a>
+        <a href="#skills" class="waves-effect waves-light btn red lighten-1 hide-on-small-only">Skills</a>
+        <a href="#contact" class="waves-effect waves-light btn red lighten-1 hide-on-small-only ">Contact</a>
+    </div>
+  </div>
+            <!-- ABOUT -->
     <div class="container">
       <div class="row">
         <div class="col s12">
@@ -68,49 +78,14 @@
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 m6">
-          <ul class="collapsible" data-collapsible="accordion">
-            <li>
-              <div class="collapsible-header"><i class="material-icons">filter_drama</i>First</div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-            </li>
-            <li>
-              <div class="collapsible-header"><i class="material-icons">place</i>Second</div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-            </li>
-            <li>
-              <div class="collapsible-header"><i class="material-icons">whatshot</i>Third</div>
-              <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
-            </li>
-          </ul>
-        </div>
-      </div>
-
+    </div>
       <hr>
       <div class="row">
         <div class="col s12">
-          <div class="card-panel teal">
-            <h2>Skills</h2>
+            <h2>Project</h2>
             <span class="white-text">I am a very simple card. I am good at containing small bits of information.
               I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
             </span>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col s12">
-          <div class="card-panel teal">
-            <h2>Contact</h2>
-            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
-            </span>
-          </div>
-        </div>
-      </div>
-      <hr>
-
       <div class="carousel carousel-slider center" data-indicators="true">
         <div class="carousel-fixed-item center">
           <a class="btn waves-effect white grey-text darken-text-2">button</a>
@@ -133,14 +108,50 @@
         </div>
       </div>
     </div>
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <!-- Compiled and minified JavaScript -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-      <!-- Import materialize jQuery from app.js -->
-      <script type="text/javascript" src="scripts/app.js"></script>
+  </div>
+      <hr>
+      <div class="row">
+        <div class="col s12">
+          <div class="card-panel teal">
+            <h2>Skills</h2>
+            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+            </span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="container">
+          <div class="container col s12">
+            <div  class="contact-color">
+              <h2  id="contact" class="about-header" >Contact</h2>
+              <hr>
+              <br>
+              <div class="center-align">
+                <p>Reach out, and lets talk</p>
+                <a href="https://www.linkedin.com/in/brainchilddeveloper" target="_blank"><i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+                <a href="mailto:rene.arellano415@gmail.com" class="resume_email"><i class="medium material-icons">email</i></a>
+                <a href="https://github.com/relative-rene" target="_blank" class="resume_email"><i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                <a href="#" target="_blank" class="resume_email"><i class="medium material-icons">library_books</i></a>
+              </div>
+              <br>
+
+            </div>
+          </div>
+        </div>
+
     <footer>
       <div class="footer centertext">  &copy; 2016, Rene Arellano </div>
     </footer>
+
+          <!--Import jQuery before materialize.js-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+          <!-- CDN for fontawesome a favicon library -->
+          <script src="https://use.fontawesome.com/5a4b36fd61.js"></script>
+          <!-- Import materialize jQuery from app.js -->
+          <script type="text/javascript" src="scripts/app.js"></script>
   </body>
 </html>
