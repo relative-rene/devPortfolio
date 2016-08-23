@@ -1,0 +1,189 @@
+body {
+	background-image: url('../styles/images/launch.jpeg');
+	background-size: cover;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	z-index: 25px;
+}
+.centertext {
+	text-align: center;
+}
+
+h2 {
+	color: #fff;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+}
+div#skills-box.card.icon-block{
+	border-radius:40px;
+	background-color: #D73A31;
+}
+.about-header{
+font-family: 'Poiret One', cursive;
+}
+
+.content-o {
+	background-color: rgb(235,235,235);
+	height: 50%;
+	max-width: 100%;
+}
+
+.devicon-git-plain {
+  padding: 10px 5px 2px 10px;
+  max-width: 4em;
+}
+
+.btn{
+  background-color: #D73A31;
+}
+
+div.card-panel	{
+	background-color: #D73A31;
+	z-index: 30;
+	border-radius: 30px;
+}
+
+#skills-headers{
+  font-family: 'Poiret One', cursive;
+}
+#port-header{
+  font-family: 'Josefin Sans', sans-serif;
+}
+.git-plain {
+  max-width: 3em;
+  padding-bottom: 8px;
+}
+.resume_email{
+  color: #000000;
+}
+.resume_email:hover{
+  color:#757575;
+}
+
+.testing {
+	height: 100%;
+}
+
+/************ HIDDEN ARROW ***************/
+
+.hiddenarrow {
+	visibility: hidden;
+	size: 4em;
+}
+.fa-arrow	{
+	size:3em;
+}
+
+
+/************ PROJECT CSS *****************/
+div.collapsible-header	{
+	background-color: rgb(235,235,235);
+
+}
+.projects {
+	font-family: 'Cantata One', serif;
+	font-size: 3em;
+	margin-top: -2%;
+}
+
+.project-name {
+	font-size: 1.3em;
+	text-shadow: 2px;
+	text-align: center;
+}
+
+.project-name:hover {
+	color: rgb(77, 140, 134);
+}
+
+.proj {
+	color: #80827A;
+}
+
+.fa-github {
+	color: #80827A;
+	font-size: 1.3em;
+}
+
+.project-icons {
+	margin: 0 auto;
+}
+
+img.project-image {
+	display: inline;
+	max-width: 80%;
+	max-height: 60%;
+	background-color: rgb(237, 237, 237);
+}
+
+.projfa:hover {
+	color: rgb(77, 140, 134);
+}
+
+
+.icon {
+	font-size: 5em;
+	text-decoration: none;
+	color: rgb(77, 140, 134);
+	padding: 0.5%;
+}
+
+.icon:hover {
+	color: #B1AC62;
+	text-shadow: 0 0 3px #000000;
+}
+
+
+/******** PROJECT SLICK BAR ************/
+
+.slickleft {
+	color: #B1AC62;
+	font-size: 6em;
+	z-index: -99999;
+}
+
+.slickleft:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 3px #000000;
+}
+
+.slickright {
+	margin-left: 5%;
+	color: #B1AC62;
+	font-size: 6em;
+	z-index: -999999;
+}
+
+.slickright:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 3px #000000;
+}
+
+.slick-slider {
+	margin: 0 6%;
+}
+
+.slick-slide {
+	margin-top: 0.5%;
+}
+
+/**************** FOOTER *******************/
+
+footer {
+	font-family: 'Nixie One', cursive;
+}
+
+/********** TESTING ARROWS ************/
+
+.arrowdiv {
+	text-align: center;
+	font-size: 3em;
+}
