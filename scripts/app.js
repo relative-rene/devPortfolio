@@ -1,20 +1,15 @@
+console.log('sanity checkt');
 $(document).ready(function(){
-  $('.carousel').carousel();
-    $(".button-collapse").sideNav();
+	$('.projectinfo').slick({
+	  dots: false,
+	  infinite: true,
+	  speed: 500,
+	  fade: true,
+	  cssEase: 'linear',
+  	nextArrow: '<i class="slickright fa fa-arrow-circle-right"></i>',
+  	prevArrow: '<i class="slickleft fa fa-arrow-circle-left"></i>',
+  	appendArrows: $('.arrowdiv')
+	});
+  $(".button-collapse").sideNav();
 
 });
-
-
-// Next slide
-$('.carousel').carousel('next');
-$('.carousel').carousel('next', 3); // Move next n times.
-// Previous slide
-$('.carousel').carousel('prev');
-$('.carousel').carousel('prev', 4); // Move prev n times.
-// Set to nth slide
-$('.carousel').carousel('set', 4);
-
-// Show sideNav
-$('.button-collapse').sideNav('show');
-// Hide sideNav
-$('.button-collapse').sideNav('hide');
