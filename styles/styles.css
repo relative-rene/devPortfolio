@@ -1,0 +1,194 @@
+body {
+	background-image: url('../styles/images/launch.jpeg');
+	background-size: 100%;
+	background-attachment: fixed;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	z-index: 30px;
+	font-family: Georgia;
+
+}
+.centertext {
+	text-align: center;
+}
+
+h2 {
+	color: rgb(235,235,235);
+	font-family: 'Cantata One', serif;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	text-align: center;
+}
+
+a.btn{
+	background-color: #F44336;
+	margin: .05%;
+}
+
+.btn-flat:hover	{
+	text-shadow: 0 0 2px #000000;
+	background-color: #F44336;
+	font-weight: bold;
+}
+
+ul.side-nav {
+	background-image:url("../styles/images/moeSlim.png");
+	z-index: 50px;
+}
+
+div#skills-box.card.icon-block {
+	border-radius:25px;
+	background-color: #AC7D54;
+	color: rgb(235,235,235);
+	border-style: solid;
+	border-width: thin;
+	height: 120px;
+	overflow: auto;
+	padding: .05%;
+	text-shadow: 0 0 3px #000000;
+
+}
+
+
+.content-o {
+	background-color: rgb(235,235,235);
+	height: 50%;
+	max-width: 100%;
+}
+
+div.card-panel	{
+	background-color: #F44336;
+	z-index: 30;
+	border-radius: 30px;
+	color: rgb(235,235,235);
+}
+
+.icon {
+	font-size: 5em;
+	text-decoration: none;
+	color: rgb(235,235,235);
+	padding: 0.5%;
+}
+
+.icon:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 2px #000000;
+}
+
+#skills-headers{
+	font-family: 'Cantata One', serif;
+}
+
+.git-plain {
+  max-width: 3em;
+  padding-bottom: 8px;
+}
+
+
+/************ HIDDEN ARROW ***************/
+
+.hiddenarrow {
+	visibility: hidden;
+	size: 4em;
+}
+
+/************ PROJECT CSS *****************/
+div.collapsible-header	{
+	background-color: rgb(235,235,235);
+
+}
+.projects {
+	font-family: 'Cantata One', serif;
+	font-size: 3em;
+	margin-top: -1%;
+}
+
+.project-name {
+	font-size: 1.3em;
+	text-shadow: 2px;
+	text-align: left;
+}
+
+.project-name:hover {
+	color: rgb(77, 140, 134);
+}
+
+.proj {
+	color: rgb(235,235,235);
+}
+
+.fa-github {
+	color: rgb(235,235,235);
+	font-size: 1.3em;
+}
+
+.project-icons {
+	margin: 0 auto;
+}
+
+img.project-image {
+	display: inline;
+	max-width: 80%;
+	max-height: 60%;
+	background-color: rgb(237, 237, 237);
+}
+
+.projfa:hover {
+	color: rgb(77, 140, 134);
+}
+
+
+
+/******** PROJECT SLICK BAR ************/
+
+.slickleft {
+	color: #AC7D54;
+	font-size: 6em;
+	z-index: -99999;
+}
+
+.slickleft:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 3px #000000;
+}
+
+.slickright {
+	margin-left: 5%;
+	color: #AC7D54;
+	font-size: 6em;
+	z-index: -999999;
+}
+
+.slickright:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 3px #000000;
+}
+
+.slick-slider {
+	margin: 0 6%;
+}
+
+.slick-slide {
+	margin-top: 0.5%;
+}
+
+/**************** FOOTER *******************/
+
+.container-fluid {
+	font-family: 'Cantata One', serif;
+	color: rgb(235, 235, 235);
+}
+
+/********** TESTING ARROWS ************/
+
+.arrowdiv {
+	text-align: center;
+	font-size: 3em;
+
+}
