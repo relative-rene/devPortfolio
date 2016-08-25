@@ -1,18 +1,21 @@
 body {
 	background-image: url('../styles/images/launch.jpeg');
-	background-size: cover;
+	background-size: 100%;
 	background-attachment: fixed;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
 	transition: all 0.2s ease;
-	z-index: 25px;
+	z-index: 30px;
+	font-family: Georgia;
+
 }
 .centertext {
 	text-align: center;
 }
 
 h2 {
-	color: #fff;
+	color: rgb(235,235,235);
+	font-family: 'Cantata One', serif;
 }
 * {
 	margin: 0;
@@ -22,13 +25,36 @@ h2 {
 p {
 	text-align: center;
 }
-div#skills-box.card.icon-block{
-	border-radius:40px;
-	background-color: #D73A31;
+
+a.btn{
+	background-color: #F44336;
+	margin: .05%;
 }
-.about-header{
-font-family: 'Poiret One', cursive;
+
+.btn-flat:hover	{
+	text-shadow: 0 0 2px #000000;
+	background-color: #F44336;
+	font-weight: bold;
 }
+
+ul.side-nav {
+	background-image:url("../styles/images/moeSlim.png");
+	z-index: 50px;
+}
+
+div#skills-box.card.icon-block {
+	border-radius:25px;
+	background-color: #AC7D54;
+	color: rgb(235,235,235);
+	border-style: solid;
+	border-width: thin;
+	height: 120px;
+	overflow: auto;
+	padding: .05%;
+	text-shadow: 0 0 3px #000000;
+
+}
+
 
 .content-o {
 	background-color: rgb(235,235,235);
@@ -36,41 +62,34 @@ font-family: 'Poiret One', cursive;
 	max-width: 100%;
 }
 
-.devicon-git-plain {
-  padding: 10px 5px 2px 10px;
-  max-width: 4em;
-}
-
-.btn{
-  background-color: #D73A31;
-}
-
 div.card-panel	{
-	background-color: #D73A31;
+	background-color: #F44336;
 	z-index: 30;
 	border-radius: 30px;
+	color: rgb(235,235,235);
+}
+
+.icon {
+	font-size: 5em;
+	text-decoration: none;
+	color: rgb(235,235,235);
+	padding: 0.5%;
+}
+
+.icon:hover {
+	color: rgb(77, 140, 134);
+	text-shadow: 0 0 2px #000000;
 }
 
 #skills-headers{
-  font-family: 'Poiret One', cursive;
+	font-family: 'Cantata One', serif;
 }
-#port-header{
-  font-family: 'Josefin Sans', sans-serif;
-}
+
 .git-plain {
   max-width: 3em;
   padding-bottom: 8px;
 }
-.resume_email{
-  color: #000000;
-}
-.resume_email:hover{
-  color:#757575;
-}
 
-.testing {
-	height: 100%;
-}
 
 /************ HIDDEN ARROW ***************/
 
@@ -78,10 +97,6 @@ div.card-panel	{
 	visibility: hidden;
 	size: 4em;
 }
-.fa-arrow	{
-	size:3em;
-}
-
 
 /************ PROJECT CSS *****************/
 div.collapsible-header	{
@@ -91,13 +106,13 @@ div.collapsible-header	{
 .projects {
 	font-family: 'Cantata One', serif;
 	font-size: 3em;
-	margin-top: -2%;
+	margin-top: -1%;
 }
 
 .project-name {
 	font-size: 1.3em;
 	text-shadow: 2px;
-	text-align: center;
+	text-align: left;
 }
 
 .project-name:hover {
@@ -105,11 +120,11 @@ div.collapsible-header	{
 }
 
 .proj {
-	color: #80827A;
+	color: rgb(235,235,235);
 }
 
 .fa-github {
-	color: #80827A;
+	color: rgb(235,235,235);
 	font-size: 1.3em;
 }
 
@@ -129,23 +144,11 @@ img.project-image {
 }
 
 
-.icon {
-	font-size: 5em;
-	text-decoration: none;
-	color: rgb(77, 140, 134);
-	padding: 0.5%;
-}
-
-.icon:hover {
-	color: #B1AC62;
-	text-shadow: 0 0 3px #000000;
-}
-
 
 /******** PROJECT SLICK BAR ************/
 
 .slickleft {
-	color: #B1AC62;
+	color: #AC7D54;
 	font-size: 6em;
 	z-index: -99999;
 }
@@ -157,7 +160,7 @@ img.project-image {
 
 .slickright {
 	margin-left: 5%;
-	color: #B1AC62;
+	color: #AC7D54;
 	font-size: 6em;
 	z-index: -999999;
 }
@@ -177,8 +180,9 @@ img.project-image {
 
 /**************** FOOTER *******************/
 
-footer {
-	font-family: 'Nixie One', cursive;
+.container-fluid {
+	font-family: 'Cantata One', serif;
+	color: rgb(235, 235, 235);
 }
 
 /********** TESTING ARROWS ************/
@@ -186,4 +190,5 @@ footer {
 .arrowdiv {
 	text-align: center;
 	font-size: 3em;
+
 }
