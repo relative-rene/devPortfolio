@@ -1,6 +1,7 @@
 body {
 	background-image: url('../styles/images/launch.jpeg');
 	background-size: 100%;
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	-webkit-transition: all 0.2s ease;
 	-moz-transition: all 0.2s ease;
@@ -144,7 +145,6 @@ img.project-image {
 }
 
 
-
 /******** PROJECT SLICK BAR ************/
 
 .slickleft {
@@ -178,17 +178,17 @@ img.project-image {
 	margin-top: 0.5%;
 }
 
-/**************** FOOTER *******************/
-
-.container-fluid {
-	font-family: 'Cantata One', serif;
-	color: rgb(235, 235, 235);
-}
-
 /********** TESTING ARROWS ************/
 
 .arrowdiv {
 	text-align: center;
 	font-size: 3em;
+}
+
+/**************** FOOTER *******************/
+
+.container-fluid {
+	font-family: 'Cantata One', serif;
+	color: rgb(235, 235, 235);
 
 }
