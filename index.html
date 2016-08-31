@@ -10,7 +10,7 @@
     <!-- slick css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css"/>
     <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="styles/styles.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="styles/styles.css" media="screen,projection"/>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
       <title> Portfolio </title>
@@ -18,10 +18,10 @@
   <body>
       <ul id="slide-out" class="side-nav">
         <li>
-          <a href="#about" class="waves-effect waves-light btn-flat">Rene Arellano</a>
-          <a href="mailto:rene.arellano415@gmail.com" class="waves-effect waves-light btn-flat auto">Email A Dev</a>
-          <a href="#projects" class="waves-effect waves-light btn-flat">Portfolio</a>
-          <a href="#skills" class="waves-effect waves-light btn-flat">Skills</a>
+          <a href="#about" class="waves-effect waves-light btn-flat right-align">About Me</a>
+          <a href="mailto:rene.arellano415@gmail.com" class="waves-effect waves-light btn-flat right-align auto">Email Me</a>
+          <a href="#projects" class="waves-effect waves-light btn-flat right-align">Portfolio</a>
+          <a href="#skills" class="waves-effect waves-light btn-flat right-align">Skills</a>
         </li>
       </ul>
     <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-large red hide-on-med-and-up "><i class="material-icons">menu</i></a>
@@ -29,11 +29,12 @@
       <div class="container centertext">
         <span class="center"><h2 id="name-header">Rene Arellano</h2><p>{ Full-Stack
           Developer && Bob Ross Enthusiast}<p></span>
-          <a href="#about" class="waves-effect waves-light btn hide-on-small-only">About</a>
-          <a href="#projects" class="waves-effect waves-light btn hide-on-small-only">Portfolio</a>
-          <a href="#skills" class="waves-effect waves-light btn hide-on-small-only">Skills</a>
-          <a href="#contact" class="waves-effect waves-light btn hide-on-small-only ">Contact</a>
+          <a href="#about" class="waves-effect waves-light btn hide-on-small-only" onclick="Materialize.fadeInImage('div.card-panel')">About</a>
+          <a href="#projects" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="Swipe or click through projects">Portfolio</a>
+          <a href="#skills" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="A Glimpse at the Hard Skills">Skills</a>
+          <a href="#contact" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="Say Hello">Contact</a>
       </div>
+
             <!-- ABOUT -->
 
       <div class="row center-align" id="about">
@@ -87,18 +88,19 @@
                     </div>
                   </div>
 
+
                   <div class="col m6">
-                    <ul class="collapsible" data-collapsible="accordion">
+                    <ul class="collapsible z-depth-3" data-collapsible="accordion">
                       <li>
-                        <div class="collapsible-header"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
+                        <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
                         <div class="collapsible-body"><p>A blog were client read and search preferred post</p></div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
+                        <div class="collapsible-header z-depth-2"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
                         <div class="collapsible-body"><p>Full-Stack Web Developer</p></div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
+                        <div class="collapsible-header z-depth-2"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
                         <div class="collapsible-body"><p> MEAN Stack (MongoDB with Mongoose.js, Express.js, AngularJS, Node.js), Bootstrap, CSS3, HTML5</p></div>
                       </li>
                     </ul>
@@ -120,17 +122,17 @@
                   </div>
 
                   <div class="col m6">
-                    <ul class="collapsible" data-collapsible="accordion">
+                    <ul class="collapsible z-depth-3" data-collapsible="accordion">
                       <li>
-                        <div class="collapsible-header"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
-                        <div class="collapsible-body"><p>An MMA fighter archive, where user can Search, Create, Update, Read, Delete </p></div>
+                        <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
+                        <div class="collapsible-body z-depth-2"><p>An MMA fighter archive, where user can Search, Create, Update, Read, Delete </p></div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
+                        <div class="collapsible-header z-depth-2"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
                         <div class="collapsible-body"><p>Full-Stack Web Developer</p></div>
                       </li>
                       <li>
-                        <div class="collapsible-header"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
+                        <div class="collapsible-header z-depth-2"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
                         <div class="collapsible-body"><p> MEAN Stack (MongoDB with Mongoose.js, Express.js, AngularJS, Node.js), Bootstrap, CSS3, HTML5</p></div>
                       </li>
                     </ul>
@@ -150,17 +152,17 @@
                 </div>
 
                 <div class="col m6">
-                  <ul class="collapsible" data-collapsible="accordion">
+                  <ul class="collapsible z-depth-3" data-collapsible="accordion">
                     <li>
-                      <div class="collapsible-header"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
+                      <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
                       <div class="collapsible-body"><p>An appointment app, where client can join, schedule and pay for services.</p></div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
+                      <div class="collapsible-header z-depth-2"><i class="fa fa-user" aria-hidden="true"></i>Role:</div>
                       <div class="collapsible-body"><p>Full-Stack Web Developer</p></div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
+                      <div class="collapsible-header z-depth-2"><i class="material-icons">Technologies</i>Implemented Technologies:</div>
                       <div class="collapsible-body"><p>Ruby on Rails, PostgresSQL, Simple Forms, Better Errors, Pry ByeBug, Bootstrap, CSS3, HTML5</p></div>
                     </li>
                   </ul>
@@ -174,23 +176,23 @@
 
                     <a href="https://plan-tastic.herokuapp.com/"><img class="project-image" src="styles/images/planTasticSS.png"/></a>
 
-                    <a href="https://plan-tastic.herokuapp.com/" class="project-name">planTastic</a> <a class="projfa fa fa-github fa-3x" aria-hidden="true" href="https://github.com/Smicl11/planTastic_project2"></a>
+                    <a href="https://plan-tastic.herokuapp.com/" class="project-name">planTastic</a><a class="projfa fa fa-github fa-3x" aria-hidden="true" href="https://github.com/Smicl11/planTastic_project2"></a>
                   </div>
                 </div>
               </div>
 
               <div class="col m6">
-                  <ul class="collapsible" data-collapsible="accordion">
+                  <ul class="collapsible z-depth-3" data-collapsible="accordion">
                     <li>
-                      <div class="collapsible-header"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
-                      <div class="collapsible-body"><p>An Event planning app, where user can organize contributions, join, and publish events</p></div>
+                      <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
+                      <div class="collapsible-body z-depth-2"><p>An Event planning app, where user can organize contributions, join, and publish events</p></div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="fa fa-users" aria-hidden="true"></i>Role:</div>
+                      <div class="collapsible-header z-depth-2"><i class="fa fa-users" aria-hidden="true"></i>Role:</div>
                       <div class="collapsible-body"><p>Full-Stack Web Developer</p></div>
                     </li>
                     <li>
-                      <div class="collapsible-header"><i class="material-icons center">Technologies</i>Implemented Technologies:</div>
+                      <div class="collapsible-header z-depth-2"><i class="material-icons center">Technologies</i>Implemented Technologies:</div>
                       <div class="collapsible-body"><p>Ruby on Rails, PostgreSQL, BootStrap, HTML5, CSS3, Trello, Github, Rspec and Google Places API.</p></div>
                     </li>
                   </ul>
@@ -206,7 +208,7 @@
           <div class= "container auto">
             <div class="section">
               <div class="row">
-                <h2 class="about-header">     Skills</h2>
+                <h2 class="about-header center-align">Skills</h2>
                 <div class="col s12 m3">
                   <div id="skills-box" class="card icon-block center-align">
                     <h5 id="skills-headers">Languages</h5>
@@ -265,15 +267,16 @@
           </div>
         </section>
 
+
         <!-- Contact info -->
-          <div class="row" id="contact">
-            <div class="container-fluid col s12 center-align">
-              <h3>Contact</h3>
+          <div id="contact" class="row">
+            <div class="container-fluidcol s12 center-align">
+              <h2>Contact</h2>
               <a href="https://www.linkedin.com/in/brainchilddeveloper"><i class="icon fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
               <a href="mailto:rene.arellano415@gmail.com" class="resume_email"><i class="icon medium material-icons">email</i></a>
               <a href="https://github.com/relative-rene" target="_blank" class="resume_email"><i class="icon devicon-github-plain fa-4x" aria-hidden="true"></i></a>
               <a href="styles/images/PortfolioResume.pdf" target="_blank" class="resume_email"><i class="icon medium material-icons">library_books</i></a>
-              <p> &copy; 2016, Rene Arellano </p>
+              <p> &copy; 2016, Rene Arellano</p>
             </div>
           </div>
         <br>
