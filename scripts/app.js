@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$('.projectinfo').slick({
 	  dots: false,
 	  infinite: true,
-	  speed: 500,
+	  speed: 800,
 	  fade: true,
 	  cssEase: 'linear',
   	nextArrow: '<i class="slickright fa fa-arrow-circle-right"></i>',
