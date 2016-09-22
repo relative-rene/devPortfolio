@@ -1,11 +1,9 @@
 body {
-	background-image: url('../styles/images/launch.jpeg');
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	-webkit-transition: all 0.2s ease;
-	-moz-transition: all 0.2s ease;
-	transition: all 0.2s ease;
+	background: url('../styles/images/launch.jpeg')no-repeat center left fixed;
+	background-size: cover;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 	z-index: 30px;
 	font-family: Georgia;
 
@@ -14,13 +12,13 @@ body {
 	text-align: center;
 }
 
-h2 {
+h2, h4 {
 	color: rgb(235,235,235);
 	font-family: 'Cantata One', serif;
 }
 span {
 	color: rgb(235,235,235);
-	font-family: 'Cantata One', serif;
+	font-family: Georgia, serif;
 	margin: -3%;
 }
 * {
@@ -30,6 +28,7 @@ span {
 
 p {
 	text-align: center;
+	font-family: Georgia;
 }
 
 a.btn{
@@ -53,14 +52,14 @@ ul.side-nav {
 }
 
 div#skills-box.card.icon-block {
-	border-radius:25px;
+	border-radius:2em;
 	background-color: #AC7D54;
 	color: rgb(235,235,235);
 	border-style: solid;
 	border-width: thin;
-	height: 200px;
-	overflow: auto;
+	height: 12em;
 	padding: .05%;
+	font-size: 1em;
 	text-shadow: 0 0 3px #000000;
 
 }
@@ -200,5 +199,4 @@ img.project-image {
 .container-fluid {
 	font-family: 'Cantata One', serif;
 	color: rgb(235, 235, 235);
-
 }
