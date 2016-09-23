@@ -12,10 +12,11 @@ body {
 	text-align: center;
 }
 
-h2, h4 {
+h2, h4,h5.about-header {
 	color: rgb(235,235,235);
 	font-family: 'Cantata One', serif;
 }
+
 span {
 	color: rgb(235,235,235);
 	font-family: Georgia, serif;
@@ -52,14 +53,12 @@ ul.side-nav {
 }
 
 div#skills-box.card.icon-block {
-	border-radius:2em;
+	border-radius:30%;
 	background-color: #AC7D54;
 	color: rgb(235,235,235);
 	border-style: solid;
 	border-width: thin;
-	height: 12em;
-	padding: .05%;
-	font-size: 1em;
+	font-size: 1.2em;
 	text-shadow: 0 0 3px #000000;
 
 }
