@@ -101,6 +101,14 @@ div.card-panel	{
   padding-bottom: 8px;
 }
 
+i.fa.fa-envelope-o.fa-4x, i.fa.fa-file-o.fa-4x {
+	color:rgb(235,235,235);
+}
+i.fa.fa-envelope-o.fa-4x:hover, i.fa.fa-file-o.fa-4x:hover {
+		color: rgb(77, 140, 134);
+}
+
+
 
 /************ HIDDEN ARROW ***************/
 
@@ -109,7 +117,7 @@ div.card-panel	{
 	size: 4em;
 }
 
-/************ PROJECT CSS *****************/
+/************ PROJECT Slider CSS *****************/
 div.collapsible-header	{
 	background-color: rgb(235,235,235);
 
@@ -120,13 +128,14 @@ div.collapsible-header	{
 	margin-top: -1%;
 }
 
-.project-name {
+a.project-name {
 	font-size: 1.3em;
 	text-shadow: 2px;
 	text-align: left;
+	color: #000000;
 }
 
-.project-name:hover {
+a.project-name:hover {
 	color: rgb(77, 140, 134);
 }
 
@@ -150,11 +159,13 @@ img.project-image {
 	background-color: rgb(237, 237, 237);
 }
 
-.projfa:hover {
+a.projfa:hover {
 	color: rgb(77, 140, 134);
 }
 
-
+a.projfa {
+color: #000000;
+}
 /******** PROJECT SLICK BAR ************/
 
 .slickleft {
