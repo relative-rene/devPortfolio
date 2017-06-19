@@ -1,3 +1,12 @@
+html, body, h1, h2,
+h3, p, ol, ul, li, a {!
+padding: 0;!
+border: 0;!
+margin: 0;
+}
+
+
+
 body {
 	background: url('../styles/images/launch.jpeg')no-repeat center left fixed;
 	background-size: cover;
