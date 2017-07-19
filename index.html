@@ -1,280 +1,178 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!--Let browser know website is optimized for mobile-->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" description="An awesome Full-Stack developer exceptional in Ruby on Rails and MEAN Stack development. Only interested in contributing beautiful features and transparent code" />
-    <!-- devicon cdn -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
-    <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!-- slick css -->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.css" />
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="styles/styles.css" media="screen,projection" />
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
-    <title> Awesome Full-Stack Developer </title>
+  <!--Let browser know website is optimized for mobile-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" description="An awesome Full-Stack developer exceptional in Ruby on Rails and MEAN Stack development. Only interested in contributing beautiful features and transparent code" />
+  <!-- devicon cdn -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Open+Sans" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="styles/alternativestyle.css" media="screen,projection" />
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <title> Awesome Full-Stack Developer </title>
 </head>
 
 <body>
-    <ul id="slide-out" class="side-nav">
-        <li>
-            <a href="#about" class="waves-effect waves-light btn-flat right-align" title='full-stack developer about me' onclick="Materialize.fadeInImage('div.card-panel')">About Me</a>
-            <a href="mailto:rene.arellano415@gmail.com" title="email full-stack developer" class="waves-effect waves-light btn-flat right-align auto">Email Me</a>
-            <a href="#projects" title="full-stack projects" class="waves-effect waves-light btn-flat right-align">Portfolio</a>
-            <a href="#skills" title="awesome full-stack developer skills" class="waves-effect waves-light btn-flat right-align">Skills</a>
-        </li>
-    </ul>
-    <a href="#" data-activates="slide-out" class="button-collapse btn-floating btn-large red hide-on-med-and-up "><i class="material-icons">menu</i></a>
-
-    <div class="container centertext">
-        <span class="center"><h2 id="name-header">Rene Arellano</h2></span>
-        <a href="#about" title="full-stack developer about me" class="waves-effect waves-light btn hide-on-small-only" onclick="Materialize.fadeInImage('div.card-panel')">About</a>
-        <a href="#projects" title="full-stack developer projects" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="Swipe or click through projects">Portfolio</a>
-        <a href="#skills" title="awesome full-stack developer skills" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="A Glimpse at the Hard Skills">Skills</a>
-        <a href="#contact" title="link list full-stack developer" class="waves-effect waves-light btn hide-on-small-only tooltipped" data-position="bottom" data-delay="50" data-tooltip="Say Hello">Contact</a>
-    </div>
-
-    <br>
-    <br>
-    <!-- Skills-->
-    <section class="skills-div" id='skills'>
-        <div class="container">
-            <div class="row">
-                <h5 class="about-header centertext">{ Full-Stack Web Developer && Design Enthusiast }</h5>
-                <div class="col s12 m3">
-                    <div id="skills-box" class="card icon-block center-align">
-                        <h5 id="skills-headers">Languages</h5>
-                        <ul class="container-fluid">
-                            <i class="devicon-javascript-plain colored fa-3x"></i>
-                            <i class="devicon-nodejs-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-html5-plain colored fa-3x"></i>
-                            <i class="devicon-css3-plain colored fa-3x"></i>
-                            <i class="devicon-python-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-ruby-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-sass-original colored fa-3x"></i>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col s12 m3">
-                    <div id="skills-box" class="card icon-block center-align">
-                        <h5 id="skills-headers">Middleware & Frontend Frameworks</h5>
-                        <ul class="container-fluid">
-                            <i class="devicon-rails-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-angularjs-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-react-original-wordmark colored fa-3x"></i>
-                            <i class=" medium material-icons fa-3x"></i>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col s12 m3">
-                    <div id="skills-box" class="card icon-block center-align">
-                        <h5 id="skills-headers">Database</h5>
-                        <ul class="container-fluid">
-                            <i class="devicon-mongodb-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-postgresql-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-mysql-plain-wordmark colored fa-3x"></i>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col s12 m3">
-                    <div id="skills-box" class="card icon-block center-align">
-                        <h5 id="skills-headers">Other</h5>
-                        <ul class="container-fluid">
-                            <i class="devicon-heroku-original colored fa-3x"></i>
-                            <i class="devicon-bootstrap-plain colored fa-3x"></i>
-                            <i class="devicon-bower-plain colored fa-3x"></i>
-                            <i class="devicon-grunt-plain colored fa-3x"></i>
-                            <i class="devicon-gulp-plain colored fa-3x"></i>
-                            <i class="devicon-jquery-plain-wordmark colored fa-3x"></i>
-                            <i class="devicon-trello-plain-wordmark colored fa-3x"></i>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <p class="header">Rene Arellano</p>
+        <div class="row center">
+          <h5 class="header col s12 "> Frontend Engineer with Full-Stack Experience </h5>
         </div>
-    </section>
-    <br>
-
-    <section class="content-o" id='projects'>
-
-        <a class="hiddenarrow fa fa-angle-double-right slick-prev slick-arrow" aria-hidden="true"></a>
-        <a class="hiddenarrow fa fa-angle-double-left slick-next slick-arrow" aria-hidden="true"></a>
-
-        <h1 class="centertext projects">Full-Stack Projects</h1>
-        <div class="about-par"></div>
-
-        <div class="projectinfo centertext">
-
-
-            <!-- First Project -->
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="indivproj centertext">
-                        <div class="project-details centertext">
-
-                            <a href="https://plan-tastic.herokuapp.com/"><img class="project-image" target="_blank" src="styles/images/planTasticSS.png" alt="full-stack developer ruby on rails image" title="Ruby on Rails full-stack app" /></a>
-
-                            <p><a href="https://plan-tastic.herokuapp.com/" class="project-name" target="_blank" title="RoR full-stack">planTastic</a>
-                                <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/Smicl11/planTastic_project2"></a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6">
-                    <ul class="collapsible z-depth-3" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
-                            <div class="collapsible-body z-depth-2">
-                                <p>An Event planning app, where user can create an account, publish events, organize contritbutions and interact with other users</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-users" aria-hidden="true"></i>Full-Stack Responsibilities:</div>
-                            <div class="collapsible-body">
-                                <p>Explored and integrated third Party API. Implemented Rspec testing, authentication and authorization. Oversaw form validations and restructured invalid inputs into graceful fails.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-cog" aria-hidden="true"></i>Full-Stack Developer Tools:</div>
-                            <div class="collapsible-body">
-                                <p>Ruby on Rails, PostgreSQL, BootStrap, HTML5, CSS3, Trello, Github, Rspec and Google Places API.</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <!-- Second Project -->
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="indivproj centertext">
-                        <div class="project-details centertext">
-
-                            <a href="http://kneadingharmony.herokuapp.com/"><img class="project-image" target="_blank" src="styles/images/knSS.png" atl="full-stack developer ruby on rails image" title="Ruby on Rails full-stack appointment app" /></a>
-
-                            <p><a href="http://kneadingharmony.herokuapp.com/" class="project-name" target="_blank" title="RoR full-stack app">Kneading Harmony</a>
-                                <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/relative-rene/appointment_project-03"></a>
-                                <p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6">
-                    <ul class="collapsible z-depth-3" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
-                            <div class="collapsible-body">
-                                <p>A small business website, where clients can learn about the services rendered and company mission statement. The design makes it quick and easy for the client to create an account and schedule appointments on mobile or
-                                    desktop.
-                                </p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-user" aria-hidden="true"></i>Full-Stack Responsibilities:</div>
-                            <div class="collapsible-body">
-                                <p>Engineered an easily maintainable UI and habit forming UX. Charted wire frames, entity relationship diagrams, routing and built with responsive layouts. Coordinated security, authentication and authorization protocols</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-cog" aria-hidden="true"></i>Full-Stack Developer Tools:</div>
-                            <div class="collapsible-body">
-                                <p>Ruby on Rails, PostgresSQL, Simple Forms, Better Errors, Pry ByeBug, Bootstrap, CSS3, HTML5</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <!-- Third Project -->
-
-            <div class="row">
-                <div class="col s12 m6">
-                    <div class="indivproj centertext">
-                        <div class="project-details centertext">
-
-                            <a href="http://thescoreapp.herokuapp.com/"><img class="project-image" src="styles/images/mmaSS.png" title="HandleBars Website" target="_blank" alt="full-stack developer MEAN Stack" /></a>
-
-                            <p><a href="http://thescoreapp.herokuapp.com/" class="project-name" target="_blank" title="HandleBars website">The Score</a>
-                                <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/relative-rene/project-01"></a>
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12 m6">
-                    <ul class="collapsible z-depth-3" data-collapsible="accordion">
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-comment" aria-hidden="true"></i>App Description:</div>
-                            <div class="collapsible-body z-depth-2">
-                                <p>A website rendered with Handlebars, user can readily interact with database data via Search, Create, Update, Read, Delete.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-user" aria-hidden="true"></i>Full-Stack Responsibilities:</div>
-                            <div class="collapsible-body">
-                                <p>Designed and built MongoDB database. Maximized potential client base with responsive design and layouts.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="collapsible-header z-depth-2"><i class="fa fa-cog" aria-hidden="true"></i>Full-Stack Developer Tools:</div>
-                            <div class="collapsible-body">
-                                <p>MongoDB, Mongoose, Express, HandleBars, Node, jQuery, Bootstrap, CSS3, HTML5</p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="arrowdiv"></div>
-    </section>
-
-    <br>
-    <!-- ABOUT -->
-    <section id="about">
-        <div class="container auto">
-            <div class="row centertext">
-                <div class="col s12 m8 offset-m2">
-                    <div class="card-panel">
-                  <p><span class="aboutMe">
-                    I became a Full-Stack developer because I fell in love with creating. You have an idea, brainstorm about the infinite, consider the variables and birth something awesome. Okay okay, maybe awesome is a little strong for version one... but its definitely yours. Crafted by your thought you've left your mark.
-                    I choose web development as a medium because I was captivated by web design. Now contributing creations has become focal point between purpose and pleasure. Today, I am looking for like minded kin that want bask in the pain and satisfaction of creating something awesome.
-                    </span></p></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Contact info -->
-    <section id="contact" class="container-fluid">
         <div class="row center-align">
-            <div class="col s12">
-                <h5>Yes!!! I got more...</h5>
-                <a href="https://www.linkedin.com/in/brainchilddeveloper" title="awesome full-stack developer linkedin" target="_blank"><i class="icon fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
-                <a href="mailto:rene.arellano415@gmail.com" title="awesome full-stack developer email"><i class="fa fa-envelope-o fa-4x"aria-hidden="true"></i></a>
-                <a href="https://github.com/relative-rene" title="full-stack git" target="_blank"><i class="icon devicon-github-plain fa-4x" aria-hidden="true"></i></a>
-                <a href="styles/images/ReneArellanocopy.docx" title="full-stack developer resume" target="_blank"><i class="fa fa-file-o fa-4x" aria-hidden="true"></i></a>
-                <p> &copy; 2017, Rene Arellano</p>
-            </div>
+          <div class="col s12">
+            <a href="https://www.linkedin.com/in/brainchilddeveloper" title="awesome full-stack developer linkedin" target="_blank"><i class="icon fa fa-linkedin-square fa-4x" aria-hidden="true"></i></a>
+            <a href="mailto:rene.arellano415@gmail.com" title="awesome full-stack developer email"><i class="fa fa-envelope-o fa-4x"aria-hidden="true"></i></a>
+            <a href="https://github.com/relative-rene" title="full-stack git" target="_blank"><i class="icon devicon-github-plain fa-4x" aria-hidden="true"></i></a>
+            <a href="styles/images/ReneArellanocopy.docx" title="full-stack developer resume" target="_blank"><i class="fa fa-file-o fa-4x" aria-hidden="true"></i></a>
+          </div>
         </div>
-    </section>
-    <!--Import jQuery before materialize.js-->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
-    <!-- CDN for fontawesome a favicon library -->
-    <script src="https://use.fontawesome.com/5a4b36fd61.js"></script>
-    <!-- slick js -->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+      </div>
+    </div>
+    <div class="parallax responsive-img"><img src="styles/images/moebridge.jpg" alt="Unsplashed background img 1"></div>
+  </div>
 
-    <script type="text/javascript" src="scripts/app.js"></script>
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center"><a href="https://plan-tastic.herokuapp.com/"><img class="thumb responsive-img" target="_blank" src="styles/images/planTasticSS.png" alt="RoR image" title="Ruby on Rails full-stack app" /></a></h5>
+
+            <p><a href="https://plan-tastic.herokuapp.com/" class="project-name" target="_blank" title="RoR full-stack">planTastic</a>
+              <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/Smicl11/planTastic_project2"></a>
+            </p>
+            <p class="thin">An Event planning app, where user can create an account, publish events, organize contritbutions and interact with other users</p>
+            <p class="thin">Explored and integrated third Party API. Implemented Rspec testing, authentication and authorization. Oversaw form validations and restructured invalid inputs into graceful fails.</p>
+
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center"><a href="https://relative-rene.github.io/responsivemenu/"><img class="thumb responsive-img menu"target="_blank" src="styles/images/responsive.png"  title="Angular4"/></a></h5>
+
+            <p><a href="https://relative-rene.github.io/responsivemenu/" class="project-name" target="_blank" title="Angular4 mobile menu">Responsive Menu</a>
+              <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/relative-rene/alamedoSoco"></a>
+            </p>
+            <p class="thin">A restaurant menu created for convenient mobile viewing. The routing, slideshow and google api call were made to display the various approaches to data manipulation with Angular 4</p>
+            <p class="thin">As a serverless application this site is hosted on Github's static hosting service gh-pages.
+
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h5 class="center"> <a href="http://thescoreapp.herokuapp.com/"><img class="thumb responsive-img" src="styles/images/mmaSS.png" title="HandleBars Website" target="_blank" alt="full-stack developer MEAN Stack" /></a></h5>
+            <p><a href="http://thescoreapp.herokuapp.com/" class="project-name" target="_blank" title="HandleBars website">The Score</a>
+              <a class="projfa fa fa-github fa-3x" target="_blank" aria-hidden="true" href="https://github.com/relative-rene/project-01"></a>
+            </p>
+            <p class="thin">A website rendered with Handlebars, user can readily interact with database data via Search, Create, Update, Read, Delete.</p>
+            <p class="thin">Designed and built MongoDB database. Maximized potential client base with responsive design and layouts.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 thin">College Graduate and Recovering Social Worker</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax responsive-img"><img src="styles/images/moebridge.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>About Me</h4>
+          <p class="left-align thin">I became a Full-Stack developer because I fell in love with creating. You have an idea, brainstorm about the infinite, consider the variables and birth something awesome. Okay okay, maybe awesome is a little strong for version one... but its
+              definitely yours. Crafted by your thought you've left your mark. I choose web development as a medium because I was captivated by web design. Now contributing creations has become focal point between purpose and pleasure. Today, I am looking
+              for like minded kin that want bask in the pain and satisfaction of creating something awesome.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light"> Frontend engineer, driven with a delicate balance of purpose, pleasure and caffeine</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax responsive-img"><img src="styles/images/smirk.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer teal lighten-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">General Outlook</h5>
+          <p class="grey-text text-lighten-4">“I have not failed. I've just found 10,000 ways that won't work.”<br> ― Thomas A. Edison.</p>
+
+
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Backend</h5>
+          <ul class="container-fluid">
+            <i class="devicon-nodejs-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-python-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-django-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-postgresql-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-mongodb-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-mysql-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-ruby-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-rails-plain-wordmark colored fa-3x"></i>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Frontend</h5>
+          <ul class="container-fluid">
+            <i class="devicon-javascript-plain colored fa-3x"></i>
+            <i class="devicon-html5-plain colored fa-3x"></i>
+            <i class="devicon-css3-plain colored fa-3x"></i>
+            <i class="devicon-bootstrap-plain colored fa-3x"></i>
+            <i class="devicon-sass-original colored fa-3x"></i>
+            <i class="devicon-angularjs-plain-wordmark colored fa-3x"></i>
+            <i class="devicon-react-original-wordmark colored fa-3x"></i>
+            <i class=" medium material-icons fa-3x"></i>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by &copy; 2017, Rene Arellano
+      </div>
+    </div>
+  </footer>
+
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <!-- CDN for fontawesome a favicon library -->
+  <!-- CDN for fontawesome a favicon library -->
+  <script src="https://use.fontawesome.com/5a4b36fd61.js"></script>
+  <script type="text/javascript" src="scripts/alternative.js"></script>
 </body>
 
 </html>

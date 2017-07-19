@@ -18,11 +18,6 @@ img.thumb.responsive-img.menu {
   max-height: 45%
 }
 
-ul.side-nav {
-	background-image:url("../styles/images/moeSlim.png");
-	color: rgb(235,235,235);
-}
-
 
 .parallax-container {
   min-height: 380px;
