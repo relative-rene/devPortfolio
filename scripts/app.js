@@ -10,7 +10,4 @@ $(document).ready(function() {
     prevArrow: '<i class="slickleft fa fa-arrow-circle-left"></i>',
     appendArrows: $('.arrowdiv')
   });
-  $('.parallax').parallax();
-  $(".button-collapse").sideNav();
-
 });
